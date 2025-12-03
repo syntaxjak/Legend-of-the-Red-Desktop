@@ -1,0 +1,28 @@
+[actions]
+search_tombs = ["tomb", "list"]
+check_mail = ["thunderbird"]
+activate_screensaver = ["xscreensaver-command", "-activate"]
+computer_terminal = ["vmware"]
+closet_launcher = ["steam"]
+explore_world = ["firefox"]
+grin_wallet = ["/home/syntaxjak/projects/grin-wallet/target/release/grin-wallet" , "info"]
+lay_down = ["swaylock"]
+
+[[actions.chest_tools]]
+name = "WireGuard"
+command = ["wg-quick", "up", "office-net"]
+
+[[actions.chest_tools]]
+name = "Suricata"
+command = ["suricata", "-D"]
+
+[[actions.chest_tools]]
+name = "Nmap Sweep"
+command = ["nmap", "-sV", "10.0.0.0/24"]
+
+[character]
+clothing = [
+  "Aurora-weave jacket",
+  "Carbon-thread boots",
+  "Optic visor"
+]
